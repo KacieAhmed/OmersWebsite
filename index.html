@@ -1,16 +1,321 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="EmpowerNisa - Empowering Muslim women entrepreneurs with free advice, mentorship, and a supportive community of women experts." />
-    <meta name="keywords" content="muslim women entrepreneurs, women in business, mentorship, empowerment, community" />
-    <title>EmpowerNisa | Empowering Muslim Women Entrepreneurs</title>
-    <script type="module" crossorigin src="/assets/index-D4uZ6H0-.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-DWV3If_M.css">
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SALAAM Spaces — Together, We Build Stronger Communities</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo"><img src="logo.png" alt="SALAAM Spaces" class="nav-logo-img">SALAAM <span>spaces</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#programs">Programs</a></li>
+        <li><a href="#impact">Impact</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="/empowernisa/">EmpowerNisa</a></li>
+        <li><a href="#involved" class="nav-cta">Get Involved</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-pattern"></div>
+    <div class="hero-content">
+      <img src="logo.png" alt="SALAAM Spaces Logo" class="hero-logo">
+      <p class="hero-tag">بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</p>
+      <h1>Uniting Hearts,<br>Building <em>Futures</em></h1>
+      <p class="hero-sub">A community-building platform for young Muslim adults in the Greater Toronto Area — fostering connection through education, adventure, and giving back.</p>
+      <div class="hero-buttons">
+        <a href="#programs" class="btn btn-primary">Explore Programs</a>
+        <a href="#involved" class="btn btn-outline">Join Us</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="section-label">Who We Are</div>
+      <div class="about-grid">
+        <div class="about-text">
+          <h2>Creating spaces where <em>community</em> thrives</h2>
+          <p>SALAAM Spaces is an established initiative offering programs focused on young adults aged 18–35 in the Greater Toronto Area. We provide a welcoming environment for community members to engage in meaningful activities, build skills, and foster strong connections.</p>
+          <p>Our inclusive space welcomes people of all backgrounds and involvement levels — united by a shared desire to grow, connect, and serve.</p>
+        </div>
+        <div class="about-mission">
+          <div class="mission-card">
+            <div class="geometric-accent"></div>
+            <h3>Our Mission</h3>
+            <p>Creating a safe, inclusive, and supportive space that fosters meaningful engagement — where programs enhance skills, connect peers, and deepen our connection to Islamic values.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="gallery">
+    <div class="container">
+      <div class="section-label">Life at SALAAM Spaces</div>
+      <h2 class="section-title">Our Community in Action</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item gallery-item-tall">
+          <img src="photo-hike.png" alt="Group hike with scenic views" loading="lazy">
+          <div class="gallery-overlay"><span>Outdoor Adventures</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="photo-social.png" alt="Community member at social event" loading="lazy">
+          <div class="gallery-overlay"><span>Social Events</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="photo-mosque.png" alt="Community gathering at mosque" loading="lazy">
+          <div class="gallery-overlay"><span>Faith & Connection</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="photo-bowling.png" alt="Bowling night with friends" loading="lazy">
+          <div class="gallery-overlay"><span>Game Nights</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="photo-pingpong.png" alt="Ping pong at recreation center" loading="lazy">
+          <div class="gallery-overlay"><span>Recreation</span></div>
+        </div>
+        <div class="gallery-item gallery-item-wide">
+          <img src="photo-nature.png" alt="Group hike by the lake" loading="lazy">
+          <div class="gallery-overlay"><span>Nature Walks</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Programs -->
+  <section class="programs" id="programs">
+    <div class="container">
+      <div class="section-label">What We Do</div>
+      <h2 class="section-title">Our Programs</h2>
+      <div class="programs-grid">
+
+        <div class="program-card">
+          <div class="program-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8 6h28a2 2 0 012 2v32a2 2 0 01-2 2H8V6z" stroke="currentColor" stroke-width="2"/>
+              <path d="M8 6v36M14 14h16M14 20h12M14 26h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Book Club</h3>
+          <p>Weekly discussions exploring literature, philosophy, and Islamic thought in an engaging group setting.</p>
+        </div>
+
+        <div class="program-card">
+          <div class="program-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M24 4L4 20h6v20h10V30h8v10h10V20h6L24 4z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+              <path d="M16 44h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <circle cx="32" cy="12" r="6" stroke="currentColor" stroke-width="2"/>
+            </svg>
+          </div>
+          <h3>Outdoor Adventures</h3>
+          <p>Nature walks, hiking excursions, and outdoor activities promoting physical wellness and reflection.</p>
+        </div>
+
+        <div class="program-card">
+          <div class="program-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="6" y="10" width="36" height="28" rx="2" stroke="currentColor" stroke-width="2"/>
+              <path d="M6 18h36M16 10V6M32 10V6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M15 26l5 5 9-10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Skill Workshops</h3>
+          <p>Coding, public speaking, career development — practical skills to help you grow professionally and personally.</p>
+        </div>
+
+        <div class="program-card">
+          <div class="program-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M24 4C13 4 4 12 4 22c0 6 3 11 8 14v8l7-4c1.6.4 3.3.6 5 .6 11 0 20-8 20-18S35 4 24 4z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+              <circle cx="16" cy="22" r="2" fill="currentColor"/>
+              <circle cx="24" cy="22" r="2" fill="currentColor"/>
+              <circle cx="32" cy="22" r="2" fill="currentColor"/>
+            </svg>
+          </div>
+          <h3>Philanthropy</h3>
+          <p>Charity drives, fundraising campaigns, and civic engagement opportunities to give back together.</p>
+        </div>
+
+        <div class="program-card">
+          <div class="program-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="18" cy="16" r="6" stroke="currentColor" stroke-width="2"/>
+              <circle cx="34" cy="16" r="6" stroke="currentColor" stroke-width="2"/>
+              <path d="M6 38c0-6 5-11 12-11s12 5 12 11" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M30 27c5 0 10 4 10 11" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Sisters & Brothers Events</h3>
+          <p>Gender-specific programming creating comfortable spaces for deeper connection and community building.</p>
+        </div>
+
+        <div class="program-card program-card-cta">
+          <div class="geometric-pattern-small"></div>
+          <h3>Find Your Place</h3>
+          <p>Whatever your interest, there's a space for you here.</p>
+          <a href="#involved" class="btn btn-primary">Get Started</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Impact -->
+  <section class="impact" id="impact">
+    <div class="impact-pattern"></div>
+    <div class="container">
+      <div class="section-label section-label-light">Our Impact</div>
+      <h2 class="section-title section-title-light">Growing Together</h2>
+      <div class="stats-grid">
+        <div class="stat">
+          <span class="stat-number" data-target="100">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Events Organized</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-target="400">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Community Members</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-target="40">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Weekly Participants</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-target="11">0</span>
+          <span class="stat-label">Months & Counting</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Upcoming Events -->
+  <section class="events" id="events">
+    <div class="container">
+      <div class="section-label">Coming Up</div>
+      <h2 class="section-title">Upcoming Events</h2>
+      <div class="events-grid">
+        <div class="event-card">
+          <div class="event-date">
+            <span class="event-month">MAR</span>
+            <span class="event-day">15</span>
+          </div>
+          <div class="event-info">
+            <h3>Morning Hike</h3>
+            <p>Kelso Conservation Area</p>
+            <span class="event-tag">Outdoor Adventures</span>
+          </div>
+          <svg class="event-arrow" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="event-card">
+          <div class="event-date">
+            <span class="event-month">MAR</span>
+            <span class="event-day">22</span>
+          </div>
+          <div class="event-info">
+            <h3>Board Game Night</h3>
+            <p>Community Center</p>
+            <span class="event-tag">Social</span>
+          </div>
+          <svg class="event-arrow" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="event-card">
+          <div class="event-date">
+            <span class="event-month">APR</span>
+            <span class="event-day">05</span>
+          </div>
+          <div class="event-info">
+            <h3>Islamic Personal Finance</h3>
+            <p>Workshop &mdash; Open to All</p>
+            <span class="event-tag">Skill Development</span>
+          </div>
+          <svg class="event-arrow" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Get Involved -->
+  <section class="involved" id="involved">
+    <div class="container">
+      <div class="section-label">Get Involved</div>
+      <h2 class="section-title">Be Part of Something <em>Meaningful</em></h2>
+      <div class="involved-grid">
+        <div class="involved-card">
+          <span class="involved-number">01</span>
+          <h3>Volunteer</h3>
+          <p>Help organize events, lead workshops, or mentor fellow community members. Every contribution matters.</p>
+          <a href="#" class="link-arrow">Become a Volunteer →</a>
+        </div>
+        <div class="involved-card">
+          <span class="involved-number">02</span>
+          <h3>Join the Book Club</h3>
+          <p>Dive into weekly discussions on literature, philosophy, and Islamic thought with a welcoming group.</p>
+          <a href="#" class="link-arrow">Start Reading →</a>
+        </div>
+        <div class="involved-card">
+          <span class="involved-number">03</span>
+          <h3>Support Our Mission</h3>
+          <p>Your donations help us run more programs, reach more people, and build a stronger community.</p>
+          <a href="#" class="link-arrow">Donate Now →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="nav-logo"><img src="logo.png" alt="SALAAM Spaces" class="footer-logo-img">SALAAM <span>spaces</span></a>
+          <p>Together, we build stronger communities.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <a href="#about">About Us</a>
+          <a href="#programs">Programs</a>
+          <a href="#events">Events</a>
+          <a href="#involved">Get Involved</a>
+        </div>
+        <div class="footer-links">
+          <h4>Connect</h4>
+          <a href="#">Instagram</a>
+          <a href="#">Email Us</a>
+          <a href="#">WhatsApp</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 SALAAM Spaces. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" aria-label="Close">&times;</button>
+    <img class="lightbox-img" id="lightboxImg" src="" alt="">
+  </div>
+
+  <script src="script.js"></script>
+</body>
 </html>

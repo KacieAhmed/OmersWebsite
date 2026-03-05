@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/empowernisa",
+      "destination": "/empowernisa/index.html"
+    },
+    {
+      "source": "/empowernisa/(.*)",
+      "destination": "/empowernisa/index.html"
+    }
+  ]
+}
