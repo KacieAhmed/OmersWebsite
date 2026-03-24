@@ -12,6 +12,13 @@ navToggle.addEventListener('click', () => {
   navToggle.classList.toggle('active');
 });
 
+// Close mobile nav on X button click
+const navClose = document.getElementById('navClose');
+navClose.addEventListener('click', () => {
+  navLinks.classList.remove('open');
+  navToggle.classList.remove('active');
+});
+
 // Close mobile nav on link click
 navLinks.querySelectorAll('a').forEach(link => {
   link.addEventListener('click', () => {

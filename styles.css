@@ -152,6 +152,10 @@ img { max-width: 100%; display: block; }
 
 .nav-cta::after { display: none !important; }
 
+.nav-close {
+  display: none;
+}
+
 .nav-toggle {
   display: none;
   flex-direction: column;
@@ -990,6 +994,20 @@ img { max-width: 100%; display: block; }
 
 @media (max-width: 768px) {
   .nav-toggle { display: flex; }
+
+  .nav-close {
+    display: block;
+    position: absolute;
+    top: 1.25rem;
+    right: 1.25rem;
+    background: none;
+    border: none;
+    color: var(--cream);
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 0.25rem 0.5rem;
+    line-height: 1;
+  }
 
   .nav-links {
     position: fixed;
