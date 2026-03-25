@@ -50,7 +50,8 @@ const counterObserver = new IntersectionObserver((entries) => {
     if (entry.isIntersecting) {
       const counters = entry.target.querySelectorAll('.stat-number');
       counters.forEach(counter => {
-        const target = parseInt(counter.dataset.target);
+        const target = parseFloat(counter.dataset.target);
+        const hasDecimal = counter.dataset.target.includes('.');
         const duration = 2000;
         const start = performance.now();
 
@@ -59,7 +60,8 @@ const counterObserver = new IntersectionObserver((entries) => {
           const progress = Math.min(elapsed / duration, 1);
           // Ease out quad
           const eased = 1 - (1 - progress) * (1 - progress);
-          counter.textContent = Math.floor(eased * target);
+          const value = eased * target;
+          counter.textContent = hasDecimal ? value.toFixed(1) : Math.floor(value);
           if (progress < 1) requestAnimationFrame(update);
         }
 
